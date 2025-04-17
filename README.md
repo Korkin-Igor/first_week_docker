@@ -11,15 +11,3 @@
     <li>Теперь по адресу <i>http://localhost:80</i> доступен проект;<br>
         по адресу <i>http://localhost:8080</i> доступен adminer.</li>
 </ol>
-=======
---------DEV---------
-Для запуска в режиме разработки убедитесь в том, что в файле .env 
-APP_ENV=dev
-NGINX_PORT=${DEV_NGINX_PORT}
-Далее необходимо ввести в терминал команду docker-compose up --build
---------PROD---------
-Для запуска в режиме продакшна убедитесь в том, что в файле .env 
-APP_ENV=prod
-NGINX_PORT=${PROD_NGINX_PORT}
-Далее необходимо ввести в терминал команду docker-compose up --build
->>>>>>> 1adad96ef381147bcdd9d379336e6a1ae442345c
